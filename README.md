@@ -31,6 +31,7 @@ assign_encoder.exe ./myfile.cpp 2 3 20101111 20102222 20113333
 * Implement base struct Shape and derived struct Circle, Rectangle and Ellipse simulating polymorphism without using the virtual keyword. Do not use the C++ inheritance or polymorphism mechanisms but simulate them as described in our lecture Lecture05_GenericProg. You are allowed to use some lecture code. Your code must be general.
 * Write standard C++, such that the following main() works. You are not allowed to modify the main().
 * Half the mark is dedicatd to comments explaining the code before each code line, test cases, and following the CodingStyle.pdf file.
+    
 int main()
 {
     Circle circle;
@@ -55,3 +56,4 @@ int main()
     cout<<total_area<<endl; // check if the value is correct
     return 0;
 }
+                           
